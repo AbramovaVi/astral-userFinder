@@ -11,7 +11,7 @@ class UserList extends Component {
     }
 
     componentDidMount() {
-        getUsers({ firstName: "1 todo"})
+        getUsers({ firstName: "test"})
             .then( ({ data }) => this.setState( {users: data}) );
 
     }

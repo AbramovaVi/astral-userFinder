@@ -2,26 +2,26 @@
 const users = [
     {
         firstName: 'test',
+        secondName: 'testovich'
+    },
+    {
+        firstName: 'test',
         secondName: 'test'
     },
     {
-        firstName: '1 todo',
-        secondName: 'test'
-    },
-    {
-        firstName: '1 todo',
+        firstName: 'another test',
         secondName: 'qwerty'
     },
     {
-        firstName: '3 todo',
+        firstName: 'person',
         secondName: 'test'
     },
     {
-        firstName: '4 todo',
+        firstName: 'blablabla',
         secondName: '123'
     },
     {
-        firstName: '5 todo',
+        firstName: 'user',
         secondName: 'test'
     }
 ];

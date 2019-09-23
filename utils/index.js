@@ -2,7 +2,7 @@
 
 const getUsers = (data, firstName) => {
     const rez = [];
-    data.map( item => {
+    data.forEach( item => {
         if (item.firstName === firstName) {
             rez.push(item);
         }});
