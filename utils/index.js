@@ -1,12 +1,11 @@
 // TODO функция c двумя параметрами getUsers(data, firstName)
 
 const getUsers = (data, firstName) => {
-    const rez = [];
-    data.forEach( item => {
-        if (item.firstName === firstName) {
-            rez.push(item);
-        }});
-    return rez;
+
+    let res = data.filter( item => {
+        return (item.firstName === firstName)
+    });
+    return res;
 };
 
 module.exports = {
