@@ -2,10 +2,10 @@
 
 const getUsers = (data, firstName) => {
 
-    let res = data.filter( item => {
-        return (item.firstName === firstName)
-    });
-    return res;
+    return data.filter(item => {
+            return (item.firstName.includes(firstName));
+        }
+    )
 };
 
 module.exports = {
